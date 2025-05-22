@@ -1,0 +1,43 @@
+.main{
+	width: 100%;
+ 	background-image: url(Christians_Portfolio_Background_3.svg);
+ 	background-position: center;
+ 	background-size: cover;
+ 	height: 100vh;
+ 	position: relative;
+ 	font-family: sans-serif;
+}
+
+.row{
+	margin-top: 100%;
+}
+
+.gallery{
+	display: inline-block;
+	border: 2px solid hsl(0, 0%, 60%);
+	margin: 0px;
+	margin-right: -20%;
+	margin-left: 20%;
+	margin-top: 108px;
+	margin-bottom: -100px;
+}
+
+.gallery .description{
+	padding: -90%;
+	text-align: center;
+}
+
+.gallery:hover{
+	border: 1px solid hsl(0, 0%, 20%);
+}
+
+.gallery .img{
+	width: 100%;
+	height: auto;
+}
+
+@media screen and (max-width: 768px) {
+	.gallery {
+		width: 100%;
+	}
+}
